@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Computer Science Time Table (2024-2025)</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google fonts connection -->  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  </div>
+      <div class="container">
+        <div class="dept-title">DEPARTMENT OF COMPUTER SCIENCE </div>
+        <!-- <div id="date-time"></div> -->
+        <div class="semester-select-container">
+                <div class="radio-group">
+                  <!-- <input type="radio" id="sem3" name="semester" value="3" onclick="updateTimetable()">
+                  <label for="sem3">1st Semester</label> -->
+                  <input type="radio" id="sem3" name="semester" value="3" onclick="updateTimetable()">
+                  <label for="sem3">3rd Semester</label>
+                  <input type="radio" id="sem5" name="semester" value="5" onclick="updateTimetable()">
+                  <label for="sem5">5th Semester</label>
+                   <div class="print-option-cont"onclick="window.print()">
+                     Print
+                   </div>
+                 
+                </div>
+              
+        </div>
+      
+  
+        <table id="timetable">
+          <thead>
+            <tr id="tbl-heading">
+              <th>Time / Day</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        
+      </div>
+     <footer>
+       <div class="footer-section">
+         This time table was created by Bikash Mahanandia. Final year student of cs department.
+       </div>
+     </footer>
+<script src="app.js"></script>
+</body>
+</html>

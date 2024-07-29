@@ -1,0 +1,220 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+     
+          body {
+            font-family: "Ubuntu", sans-serif;
+            text-align: center;
+              background-color: #f4f4f4;
+              margin: 0;
+              padding: 20px;
+              font-size:14px;
+             background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+             user-select:none;
+          }
+          .container {
+            /*  max-width: 800px; */
+            
+            /*  background:linear-gradient(to left top,#8f71ff,#8bffff); */
+             /*  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
+              background:linear-gradient(to top left,#676767,#EDEDED);
+             backdrop-filter: blur(10px);
+              
+              padding: 20px;
+              border-radius: 8px;
+           box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          }
+          select, button, input[type="radio"] {
+              padding: 10px;
+              font-size: 16px;
+              margin: 10px;
+          }
+         
+          .radio-group {
+              margin: 10px;
+              /* background-color:#257FA2; */
+              width:500px;
+              height:40px;
+              text-align:center;
+              padding-bottom:10px;
+           
+           
+          }
+          td{
+            box-shadow: rgb(204, 219, 232) 2px 2px 4px 0px inset, rgba(255, 255, 255, 0.3) -2px -2px 4px 1px inset;
+           
+          }
+          table {
+              width: 100%;
+              border-collapse: collapse;
+              margin-top: 20px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+          }
+          table, th, td {
+              border: 0px solid #ddd;
+              background-color:white;
+              /* border-radius:10px; */
+          }
+          th, td {
+              padding: 10px;
+              text-align: left;
+            
+               user-select:none;
+            
+          }
+       
+          th {
+            background-color:white;
+            /* background-color: #21A01C; */
+           background-color:#E0E0E0;
+             text-transform:uppercase;
+             border:2px solid white;
+             text-shadow: 3px 3px 6px rgba(255, 255, 255, 1);
+            
+              
+          }
+          tr td:first-child
+          {
+             background-color:#E0E0E0;
+             text-transform:uppercase;
+              border:2px solid white;
+              font-weight:bold;
+          }
+          
+          .highlight{
+            background-color:rgb(15, 148, 15);
+            border:1px solid white;
+            color:white;
+            font-weight:bold;
+
+          }
+    
+  
+  
+    .semester-select-container{
+   
+      border:1px solid white;
+      /* background: linear-gradient(to right, rgba(82, 158, 38, 1), rgba(140, 207, 213, 1)); */
+      background-color:green;
+      text-shadow: 3px 3px 6px rgba(75, 75, 75, 1);
+      color:white;
+      width:100%;
+      height:50px;
+      display:flex;
+      border-radius:6px;
+      align-items:center;
+      justify-content:center;
+      font-weight:bold;
+    }
+    input[type="radio"] {
+      accent-color: rgba(78, 201, 69, 1);
+    }
+    .timer-container{
+      width:auto;
+      height:auto;
+      border:1px solid rgba(72, 186, 63, 1)
+    }
+    .departmet-text{
+      padding:10px;
+      text-align:center;
+      font-size:16px;
+      font-weight:bold;
+      
+    }
+    .departmet-text-sub-text{
+      width:200px;
+      height:30px;
+      padding-bottom:10px;
+      font-weight:bold;
+      text-align:center;
+      
+    }
+    .dept-title{
+      width:100%;
+      height:40px;
+      text-align:center;
+      padding:10px;
+      font-weight:bold;
+      font-size:22px;
+      margin:6px;
+      letter-spacing:1px;
+       text-shadow: 3px 3px 6px white;
+      /* color: #ffffcc;
+      text-shadow: 0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 10px black,
+      0 0 10px black,
+      0 0 10px black,
+      0 0 10px black,
+      0 0 10px black; */
+    }
+    .tbl-heading{
+      border-radius:50%;
+      background-color:red;
+    }
+    .print-option-cont{
+      width:54px;
+      height:26px;
+      background-color:rgba(0, 63, 122, 1);
+      position:absolute;
+      padding:6px;
+      text-align:center;
+      font-size:10px;
+      text-transform:uppercase;
+      border:none;
+      border-radius:6px;
+      top:4%;
+      left:93%;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      user-select:none;
+      
+      
+    }
+    .print-option-cont:hover{
+      opacity:0.8;
+    }
+    .print-option-cont:hover:active{
+      background-color:green;
+      border:1px solid black;
+    }
+    .footer-section{
+      width:100%;
+      height:20px;
+      font-size:8px;
+      text-align:center;
+      background-color:grey;
+      color:black;
+      margin-top:10px;
+      padding-top:4px;
+      letter-spacing:1px;
+    }
+    .landscape-message{
+        width:400px;
+        height:50px;
+       background-color:red;
+       color:white;
+       text-align:center;
+       border-radius:10px;
+       padding:10px;
+       font-size:22px;
+       font-weight:bold;
+       display:flex;
+       align-items:center;
+       justify-content:center;
+    }
+    .land-in{
+      width:400px;
+      height:50px;
+      text-transform:uppercase;
+      color:white;
+      text-align:center;
+      font-size:22px;
+      font-weight:bold;
+    }
+   /*  input{
+    width:20px;
+    height:20px;
+    background-color:red;
+   } */
